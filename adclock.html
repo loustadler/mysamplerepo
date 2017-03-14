@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+</head>
+<body>
+
+<h1>"Example of Ad Clock Countdown"</h1>
+
+<p id="seconds"></p>
+
+<script>
+var text = "";
+var a;
+for (a = 30; a > 0; a--)
+
+{
+	text += "This ad will close in " + a + " seconds<br>";
+}
+
+document.getElementById("seconds").innerHTML = text;
+
+
+console.log('"Example of Subtracting"')
+function Subtracting(var1=1, var2=1)
+{
+	var result = var1 - var2;
+	return result;
+}
+console.log(Subtracting(10,4));
+console.log('')
+
+
+console.log('"Example of Ad Clock Countdown"')
+var a;
+for (a = 30; a > 0; a--)
+{
+	console.log("This ad will close in " +a +" seconds")
+}
+console.log('')
+
+
+console.log('"Example of Ad Clock Countdown - Odd Numbers"')
+var a;
+for (a = 30; a > 0; a--)
+{
+    if(a %2 != 0) console.log("This ad will close in " +a +" seconds")
+}
+console.log('')
+
+</script>
+</body>
+</html>
